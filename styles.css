@@ -130,6 +130,14 @@
     display: flex;
     flex-direction: column;
   }
+
+  .grid-container img:hover {
+    box-shadow: 1px 12px 20px rgba(12, 30, 252, 0.24);
+    border: 2px solid #396df2;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+  }
   
   .post-title {
     font-family: 'Crete Round', sans-serif;
@@ -167,6 +175,15 @@
     background: #fff;
     padding: 6px;
     margin: 8px 0;
+  }
+
+  .list li:hover {
+    background: #3c3a39;
+    color: #fff;
+    border: 2px solid #396df2;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 1px 12px 20px rgba(12, 30, 252, 0.24);
   }
   
   .project-button {
