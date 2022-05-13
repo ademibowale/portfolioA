@@ -444,3 +444,101 @@
     padding-left: 12px;
     margin-top: 20px;
   }
+
+  @media screen and (min-width: 768px) {
+    .grid-container {
+      display: flex;
+      flex-direction: row;
+      grid-template-columns: (12, 1fr);
+    }
+  
+    .image-place {
+      margin: 12px;
+    }
+  
+    .card-button {
+      display: flex;
+      width: 100%;
+    }
+  
+    .project {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .project-card {
+      flex: 32%;
+      padding: 1px;
+      margin: 6px 6px;
+    }
+  
+    .card1 {
+      background-image: url(./images/newimage5.png);
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+    }
+  
+    .card2 {
+      background-image: url(./images/newimage6.png);
+      background-size: cover;
+    }
+  
+    .card3 {
+      background-image: url(./images/newimage4.png);
+      background-size: cover;
+    }
+  
+    .card4 {
+      background-image: url(./images/newimage5.png);
+      background-size: cover;
+    }
+  
+    .card5 {
+      background-image: url(./images/newimage6.png);
+      background-size: cover;
+    }
+  
+    .card6 {
+      background-image: url(./images/newimage6.png);
+      background-size: cover;
+    }
+  
+    .class-p {
+      grid-column: 8/13;
+      padding-left: 16px;
+    }
+  
+    .language {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .lang {
+      width: 33.3%;
+    }
+  
+    .image-card {
+      width: 85%;
+    }
+  
+    .image-none {
+      display: none;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+    }
+  
+    .list {
+      justify-content: flex-start;
+    }
+  
+    .land-button {
+      padding: 24px;
+    }
+  }
