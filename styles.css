@@ -113,7 +113,9 @@
   width: 10px;
 }
 
+
 .works h2 {
+
   font-family: "Crete Round", serif;
   font-size: 30px;
   font-weight: 400;
@@ -162,6 +164,7 @@
   color: #091e42;
   display: flex;
 
+
   /* justify-content: space-between; */
 
   /* width: 80%; */
@@ -173,6 +176,7 @@
   padding: 6px;
   margin: 20px 12px;
   cursor: pointer;
+
 }
 
 .project-button {
@@ -180,6 +184,7 @@
   border: none;
   color: #fff;
   padding: 12px 10px;
+
   font-size: 15px;
 }
 
@@ -285,6 +290,7 @@
 .about-cont {
   width: 40%;
   margin: 80px 80px 50px 80px;
+
 }
 
 .about-title {
@@ -331,6 +337,7 @@
   color: #f55800;
 }
 
+
 /* .about {
     background-image: url("./images/illustration-about.png");
     background-repeat: no-repeat;
@@ -339,6 +346,7 @@
     height: auto;
     background-position-x: 778px;
   } */
+
 
 .language {
   margin-top: 30px;
@@ -417,6 +425,7 @@
   flex-direction: column;
   padding-top: 10px;
   max-width: 200px;
+
 }
 
 .social-logos {
