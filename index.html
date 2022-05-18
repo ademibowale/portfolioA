@@ -13,47 +13,56 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="/" class="john-doe">John Doe</a>
+            <a href="/" class="john-doe">ADEBOWALE-ADEGBOYE</a>
             <nav class="header-bar"><i class="fa fa-bars cursor"></i></nav>
         </nav>
+        <ul class="nav-list">
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
     </header>
     <section class="main-section">
         <div>
-            <h1 class="h1">Hey There.</h1>
-            <h2 class="h2">I'm Adebowale</h2>
-            <h3 class="h3">I'm a Software Developer</h3>
+            <div>
+                <h1 class="h1">Hey There.</h1>
+                <h2 class="h2">I'm Adebowale</h2>
+                <h3 class="h3">I'm a Software Developer</h3>
+            </div>
+            <div>
+                <p class="paragraph">I can help you build a product , <br>feature or website Look through some of my work and experience! <br> If you like what you see and have a project you need coded, <br>don't hestiate to contact me.</p>
+            </div>
         </div>
-        <div>
-            <p class="paragraph">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
-        </div>
+        
         <ul class="social-icon">
             <li><img src="images/vector.png3.png" class="social-logo" alt="my logo"></li>
-            <li>
-                <div>
-                    <img src="images/vector.png" class="social-logo logon" alt="my logo">
-                    <img src="images/vector.png90.png" class="social-logo logon" alt="my logo">
-                </div>
-            </li>
+            <li><img src="images/vector.png" class="social-logo logon" alt="my logo"></li>
             <li><img src="images/vector.png8.png" alt="my logo" class="social-logo"></li>
             <li><img src="images/vector.png4.png" alt="my logo" class="social-logo"></li>
             <li><img src="images/vector.png2.png" alt="my logo" class="social-logo"></li>
         </ul>
     </section>
     <section class="work-section">
-        <h2 class="works">My Recent Works</h2>
-        <hr>
+        <div class="recent-work">
+            <h2 class="works">My Recent Works</h2>
+            <hr>
+        </div>
         <br>
         <div class="grid-container">
-            <img src="images/img.placeholder2.png" alt="my logo"/>
-            <h3 class="post-title">Multi-Post Stories</h3>
-            <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="list">
-                <li>css</li>
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
+            <div>
+                <img src="images/img.placeholder2.png" alt="my logo"/>
+            </div>
+            <div>
+                <h3 class="post-title">Multi-Post Stories</h3>
+                <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="list">
+                    <li>css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li>ruby</li>
+                </ul>
+                <button type="button" class="project-button">See Project</button>
+            </div>  
         </div>
         <ul class="project">
             <li class="project-card">
@@ -80,7 +89,7 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button rmv" type="button">See Project</button>
             </li>
             <li class="project-card">
                 <div class="text-container">
@@ -93,7 +102,7 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button rmv" type="button">See Project</button>
             </li>
             <li class="project-card">
                 <div class="text-container">
@@ -106,7 +115,7 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button rmv" type="button">See Project</button>
             </li>
             <li class="project-card">
                 <div class="text-container">
@@ -119,7 +128,7 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button rmv" type="button">See Project</button>
             </li>
             <li class="project-card">
                 <div class="text-container">
@@ -132,7 +141,7 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button rmv" type="button">See Project</button>
             </li>
         </ul>
 
@@ -140,7 +149,7 @@
     <section class="about-section">
         <h2 class="about-title">About me</h2>
         <div class="about">
-            <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <p class="about-text">Hello I’m a software developer! I can help you build a product ,<br> feature or website Look through some of my work and experience! <br>If you like what you see and have a project you need coded, <br>don’t hestiate to contact me.</p>
             <button class="button about-button" type="button">Get My Resume</button>
         </div>
         <ul class="language">
@@ -177,20 +186,15 @@
         <div class="container"></div>
         <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
             <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
+            <input type="text" id="lname" name="lastname" placeholder="Lastname" maxlength="30" required>
             <input id="email" name="email" type="email" placeholder="Email Address" required>
             <textarea class="textarea" name="message" maxlength="500" required>Enter text here
             </textarea>
-
             <button class="get-button" type="submit">Get In Touch</button>
         </form>
         <ul class="social-icons">
             <li><img src="images/vector.png3.png" class="social-logos" alt="my logo"></li>
-            <li>
-                <div>
-                    <img src="images/vector.png" class="social-logo logons" alt="my logo">
-                    <img src="images/vector.png90.png" class="social-logo logons" alt="my logo">
-                </div>
-            </li>
+            <li><img src="images/vector.png" class="social-logo logons" alt="my logo"></li>
             <li><img src="images/vector.png8.png" alt="my logo" class="social-logos"></li>
             <li><img src="images/vector.png4.png" alt="my logo" class="social-logos"></li>
             <li><img src="images/vector.png2.png" alt="my logo" class="social-logos"></li>
