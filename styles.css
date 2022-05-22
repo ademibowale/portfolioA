@@ -450,8 +450,9 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 10px;
-  max-width: 200px;
+  max-width: 100px;
   margin: 70px 0 110px;
+  margin-left: 200px;
 }
 
 .social-logos {
@@ -587,9 +588,7 @@
   height: 100%;
   flex-direction: column;
   justify-content: flex-end;
-  /* align-items: flex-start; */
-  /* justify-items: flex-end; */
-
+  
 }
 
    .project-text {
@@ -735,6 +734,15 @@
     width: 20%;
   }
   
+  .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    max-width: 200px;
+    margin: 70px 0 110px;
+    margin-left: 500px;
+  }
+
   .social-logo {
     color: #dbd8d7;
     width: 15px;

@@ -2,7 +2,7 @@
 
 Project Name
 my-portfolio
-contact-form
+DESKTOP-VERSION
 
 Built With
 Major languages HTML and CSS
@@ -11,9 +11,9 @@ Stylelint e.t.c
 Authors
 👤 Author1
 
-GitHub: @adebowale
-Twitter: @adebowale
-LinkedIn: LinkedIn
+GitHub: @ademibowale
+Twitter: @ademibowale1
+LinkedIn: https://www.linkedin.com/in/adebowale-adegboye-143568221/
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
